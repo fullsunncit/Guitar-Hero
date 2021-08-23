@@ -1,0 +1,11 @@
+button{
+    height: 25px;
+    width: 70px;
+    margin: 20px;
+    background-color: teal;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    /* position:absolute; */
+    left: 120px;
+}

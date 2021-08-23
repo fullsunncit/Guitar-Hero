@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angka</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <button id="start">START</button><br><br>
+    <div id="container">
+      <div id="number">
+        <table>
+          <tr>
+            <td style = "position:absolute"><span id="belt1"></span></td>
+            <td style = "position:absolute;margin-left:100px;margin-top:-25px"><button id="plus" class="operator" value="+">+</button></td>
+          </tr>
+          <tr>
+            <td style = "position:absolute; margin-top:40px"><span id="belt2"></span></td>
+            <td style = "position:absolute; margin-top:15px;margin-left:100px"><button id="min" class="operator" value="-">-</button></td>
+          </tr>
+          <tr>
+            <td style = "position:absolute; margin-top:80px"><span id="belt3"></span></td>
+            <td style = "position:absolute; margin-top:55px;margin-left:100px"><button id="kali" class="operator" value="*">&times;</button></td>
+          </tr>
+        </table>
+      </div>
+      <div style="margin-top:200px">
+      </div>
+      <h4 id="nilai" class="nilai">Angka saat ini : </h4>
+      <h4 id="target" class="target">Angka target : </h4>
+      <h4 id="score" class="score">Total score : </h4>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
